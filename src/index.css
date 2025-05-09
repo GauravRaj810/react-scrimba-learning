@@ -1,4 +1,6 @@
 @import "tailwindcss";
+
+
 body{
   font-family: Inter;
  
@@ -7,3 +9,12 @@ body{
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
 }
+
+.primary {
+  @apply bg-blue-500 ;
+}
+.color-red{
+  @apply text-[red]
+}
+
+
